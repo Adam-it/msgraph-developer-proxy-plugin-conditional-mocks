@@ -25,6 +25,11 @@ The conditional mock plugin allows to define multiple responses for the same req
 
 5. start the Microsoft Graph Developer Proxy with `--mocks-file` option passing the path to mock.json file with conditional responses. Please check the sample [response.sample.json](/responses.sample.json) file. 
 
+### 👉 Example
+
+![Example of success response based on met condition](/assets/example1.png)
+
+![Example of failure response based on met condition](/assets/example2.png)
 
 ### 🛣️ Roadmap
 
