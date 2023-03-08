@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<RootNamespace>Microsoft.Graph.DeveloperProxy.Plugins.Conditional.Mocks</RootNamespace>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<EnableDynamicLoading>true</EnableDynamicLoading>
+		<Version>0.1.0</Version>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Dynamitey" Version="2.0.10.189" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="7.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="6.0.0" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.2"/>
+		<PackageReference Include="System.CommandLine" Version="2.0.0-beta4.22272.1" />
+		<PackageReference Include="Titanium.Web.Proxy" Version="3.2.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="msgraph-developer-proxy-abstractions">
+			<SpecificVersion>false</SpecificVersion>
+			<Private>false</Private>
+			<ExcludeAssets>runtime</ExcludeAssets>
+			<HintPath>..\..\msgraph-developer-proxy\msgraph-developer-proxy\msgraph-developer-proxy-abstractions\bin\Debug\net6.0\msgraph-developer-proxy-abstractions.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+
+</Project>

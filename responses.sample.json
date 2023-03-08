@@ -1,0 +1,32 @@
+{
+  "responses": [
+    {
+      "request": {
+        "url": "https://customapiendpoint/test/gettest",
+        "method": "POST",
+        "body": {
+          "projectid": "1"
+        }
+      },
+      "response": {
+        "code": 200,
+        "body": {
+          "id": "1",
+          "name": "Project 1"
+        }
+      }
+    },
+    {
+      "request": {
+        "url": "https://customapiendpoint/test/gettest",
+        "method": "POST",
+        "body": {
+          "projectid": "2"
+        }
+      },
+      "response": {
+        "code": 500
+      }
+    }
+  ]
+}
